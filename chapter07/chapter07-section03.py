@@ -25,17 +25,17 @@ class FlyableMixIn(object):
 
 
 # 各种动物:
-class Dog(Mammal, RunnableMixIn):
+class Dog(Mammal, RunnableMixIn):  # 狗狗
     pass
 
 
-class Bat(Mammal, FlyableMixIn):
+class Bat(Mammal, FlyableMixIn):  # 蝙蝠
     pass
 
 
-class Parrot(Bird, FlyableMixIn):
+class Parrot(Bird, FlyableMixIn):  # 鹦鹉
     pass
 
 
-class Ostrich(Bird, RunnableMixIn):
+class Ostrich(Bird, RunnableMixIn):  # 鸵鸟
     pass
